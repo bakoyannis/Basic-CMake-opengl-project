@@ -9,6 +9,9 @@
 ## Requirements
 - [CMake](https://cmake.org/download/)
 - [Git](https://git-scm.com/)
+- For GNU/Linux you might need to install additional packages
+  - Debian `sudo apt install libwayland-dev libxkbcommon-dev xorg-dev`
+  - Red hat - Fedora `sudo dnf install wayland-devel libxkbcommon-devel libXcursor-devel libXi-devel libXinerama-devel libXrandr-devel` 
 
 ## Build Instructions
 ### Command line
