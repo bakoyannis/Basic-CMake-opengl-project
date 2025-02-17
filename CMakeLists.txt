@@ -3,7 +3,7 @@ project(my_application)
 
 set(CMAKE_CXX_STANDARD           20)
 set(CMAKE_CXX_STANDARD_REQUIRED YES)
-set(CMAKE_CXX_EXTENSIONS        OFF) # Turn off extensions for compatability
+set(CMAKE_CXX_EXTENSIONS        OFF) # Turn off extensions for compatibility
 
 include_directories(${PROJECT_NAME}
     ${CMAKE_CURRENT_SOURCE_DIR}/source
